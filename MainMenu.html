@@ -35,11 +35,18 @@
             isPlaying = !isPlaying;
         }
     </script>
+
+    <script src="menu.js"></script>
+
+    <form action="./Tutorial.html" method="get">
+        <button type="submit">Want to watch a tutorial?</button>
+    </form>
+
     <!-- Your button code for play and tutorial -->
-    <button class="btn">Play <img src="Images/puzzle.png" style="width:60px; margin-left:2px; margin-right:5px; flex-direction: row;"></button>
-    <button class="btn">Tutorial <img src="Images/questionmarks.png" style="width:35px; margin-left:5px; margin-right:5px; flex-direction: row;"></button>
+    <button class="btnPlay">Play <img src="Images/puzzle.png" style="width:60px; margin-left:2px; margin-right:5px; flex-direction: row;"></button>
+    <button class="btnTutorial">Tutorial <img src="Images/questionmarks.png" style="width:35px; margin-left:5px; margin-right:5px; flex-direction: row;"></button>
      
     <!-- sound button  -->
-    <button class="btn" onclick="playSound()">Play Sound <img src="" style="width:30px; margin-left:2px; margin-right:5px; flex-direction: row;"> </button>
+    <button class="btnSound" onclick="playSound()">Play Sound <img src="" style="width:30px; margin-left:2px; margin-right:5px; flex-direction: row;"> </button>
 </body>
 </html>
